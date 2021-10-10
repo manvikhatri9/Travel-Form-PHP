@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To Travel Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    
+    
+</head>
+
+<body>
+
+    <img class="bg" src="bg.jpg" alt="trip">
+    <div class="container">
+
+        <h3>Panjab University Chandigarh US trip form</h3>
+        <p>Enter your details to submit this form and to confirm participation in this trip.</p>
+    
+  
+    
+    </div>
+
+
+    <div class="registration">
+        <form action="index.php" method="POST">
+            <h2>Registration Form</h2>
+            <label>Full Name :</label>
+            <input type="text" name="fullname" placeholder="Enter your name">
+
+            <label>Age :</label>
+            <input type="number" name="age" placeholder="Enter your age">
+
+            <label>Date Of Birth :</label>
+            <input type="date" name="dob" placeholder="">
+
+            <label>Email :</label>
+            <input type="email" name="email" placeholder="Enter your email">
+
+            <label>Phone Number :</label>
+            <input type="number" name="phonenumber" placeholder="Enter your phone number">
+
+            <label>Organization Name :</label>
+            <input type="text" name="organization_name" placeholder="">
+
+            <label>Departure date and time :</label>
+            <input type="datetime-local" name="departure_date_and_time" placeholder="">
+
+            <label>Return date and time :</label>
+            <input type="datetime-local" name="return_date_and_time" placeholder="">
+            
+            <!-- <button class="button">Submit</button> -->
+            <input class="btn" type="submit" value="Submit"> 
+            <!-- <input type="button" value="Reset"> -->
+        </form>
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
